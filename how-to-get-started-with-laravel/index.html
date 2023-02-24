@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel Blog</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+        <!-- Navbar Toggler -->
+
+          <a class="navbar-brand" href="#">Pavan<span style="color: brown;">Vattikala</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!-- Togller ID should be same as collapse ID -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <!-- Apply justify Content to make the paticulars move to right side -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#Intro">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#BG">Background</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#Meth">Methdology</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#FD">Future Scope</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/header.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <section id="Intro">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <p><p></p></p>
+                            <h1 class="main-title">Getting Started With Laravel</h1>
+                            <h4 class="text-muted">Date Add karo</h4>
+                            <p><span style="font-size: xx-large;">L</span>aravel is a popular PHP framework for creating web applications. It is written in PHP and adheres to the Model-View-Controller (MVC) architectural paradigm. Frameworks are the greatest friends for techies like you, therefore in the next minutes, you will learn how to get started with Laravel, bootstrap it with Bootstrap a popular CSS framework, connect it to a database,
+                            and help you to a base create a Web Application to help you to save day-to-day work on the server.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="BG">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h4 class="sub-title">Background</h4>
+                            <p>PHP is a popular open-source programming language that is ideal for web development. 
+                            Taylor Otwell invented Laravel, a free, open-source PHP web framework designed for the building of web applications using the model-view-controller (MVC) architectural paradigm.
+                            Laravel is widely regarded as one of the most popular PHP frameworks. </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="Meth">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h4 class="sub-title">Methodology</h4>
+                            <p>To get started with Laravel and bootstrap it with Bootstrap, we need to follow certain steps. 
+                                These steps include installing Laravel, installing Bootstrap, connecting to the database, creating a model, migration, and controller for the Application.</p>
+                            <h5><b>Step-1</b></h5>
+                            <p>Install Laravel and Prerequisites
+                                To install Laravel, you will need to have PHP, Composer, and a web server (such as Apache or Nginx) installed on your machine.
+                            </p>
+                            <h6><strong>1.Install PHP:</strong></h6>
+                            <p>PHP can be downloaded from the official website (https://windows.php.net/download/) and installed on your machine. Make sure to select the correct version for your operating system and architecture.
+                            </p>
+                            <h6><strong>2.Install Composer:</strong></h6>
+                            <p>Composer is a dependency manager for PHP. It can be downloaded from the official website (https://getcomposer.org/download/) and installed on your machine.
+                            </p>
+                            <h6><strong>3.Install a web server:</strong></h6>
+                            <p>You will also need a web server such as Apache or Nginx. These can be downloaded and installed from their respective websites (https://httpd.apache.org/download.cgi and https://nginx.org/en/download.html)
+                                These Steps can be followed if you want to tackle each Prerequisites and get more grip on them or if you want to start immediately then you can download the XAMPP it is software which consist of all the required tools to getting started with PHP development you can download it from here XAMPP-Download.
+                                XAMPP consists of Apace server and PHP and MySQL, and install and start the server, you can download the Composer from the above step 2
+                                Once you have these prerequisites installed, you can install Laravel using the following command in your terminal or command prompt:</p>
+                            <mark><i><b>composer create-project laravel/laravel example-app</b></i></mark>                    
+                            <p>This command will create a new Laravel project in a directory called "example-app".
+                                After the project has been created, start Laravel's local development server using the Laravel's Artisan CLI serve command:
+                            </p>
+                            <mark><i><b>cd example-app</b></i></mark>   
+                            <mark><i><b>cd example-app</b></i></mark>
+                            <p>Laravel's Artisan CLI serve command this command will start a web server on your local host at http://localhost:8000</p> 
+                            <h5><b>Step-2</b></h5>
+                            <h6><strong>Install Bootstrap</strong></h6>
+                            <p>To install Bootstrap, firstly you should have the NPM installed in your machine it is very simple to install choose an stable build for better understanding then use this command on your application root directory
+                                To install the ui packages
+                                <mark><i><b>composer require laravel/ui</b></i></mark>
+                                to install the UI with bootstrap
+                                <mark><i><b>php artisan ui bootstrap</b></i></mark>
+                                the below command is to add an authentication layer instantly to Laravel project
+                                <mark><i><b>php artisan ui bootstrap –auth</b></i></mark>
+                                to add the libraries
+                                <mark><i><b>npm install</b></i></mark>
+                                this below command will give you an single manifest file to include all the CSS and JavaScript libraries
+                                <mark><i><b>npm run build</b></i></mark>
+                            </p>
+                            <p>These commands will install the necessary files for bootstrapping Laravel with bootstrap.
+                                You will see a output below
+                            </p>
+                            <img src="images/img-1.png" alt="">
+                            <p>These two files app-67dcdcdfd2.css and app-58d79ea6.js will serve as the main source files for your entire applications
+                            </p>
+                            <h5><b>Step-3</b></h5>
+                            <h6><b>Connect to the Database</b></h6>
+                            <p>In order to connect to a database, you will need to configure your database settings in the .env file located in the root of your project. You will need to update the following fields:
+                            </p>
+                            <mark><i><b>DB_CONNECTION=mysql</b></i></mark>
+                            <h5><b>Step-4</b></h5>
+                            <h6><b>Create a Model, Migration, and Controller</b></h6>
+                            <p>To create a model that represents the tasks table in the database, you can use the following command:
+                            </p>
+                            <mark><i><b>php artisan make:model Task -m</b></i></mark>
+                            <p>this command will create a model and migration file for the Task.</p>
+                            <h5><b>Step-5</b></h5>
+                            <h6><b>Create an API </b></h6>
+                            <p>To create an API that helps to store day-to-day tasks on the server, you can use the following command:</p> 
+                            <mark><i><strong>php artisan make:controller TaskController </strong></i></mark>
+                            <p>This command will create a new controller for the Application it will handle all the core components of your application including redirecting , forwarding requests , getting data from the data base and session handling and Validation and more. 
+                                Now we need to define an route to user to enter our application the default route is / </p>
+                            <h5><b>Step-6</b></h5>
+                            <h6><b>Define routes</b></h6>
+                            <p>In order to define routes for the Application , you can add the following code into your file use:</p>
+                            <i><b>App\Http\Controllers\TaskController</b></i>
+                            <i><b>Route::get('/’,function(){</b></i>
+                            <i><b>return view('welcome’);</b></i>
+                            <i><b>});</b></i>
+                            <i><b>Route::post('/task/,[TaskController::class,'index']);</b></i>
+                            <h6><b>Note : </b></h6>
+                            <p>Do not copy paste from this article the quotes and other are encoded differently so it is recommended to write on the own</p>
+                            <p>Now you have a Model, Controller, View and a data base refer the Laravel official documentation for further help Here is a quick guide for those who want to start with it now Show a basic web page to user about your task  Add a button called add task to redirect to a page that has a form  Add the action to the form (don&rsquo;t forget @csrf) and take the route to web.php and transfer into the Task Controller  In the task controller validate the request and use Laravel DB queries to insert the data Use the same mechanism to update, delete the tasks There you go you have implemented a Full Stack Project</p>
+                            <p>The complete project is added into my github and code is open sourced, for further clarification you can visit the link below Github Repo Link</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="FD">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h3 class="sub-title">Further development</h3>
+                            <p>Now you have a Model, Controller, View and a data base refer the Laravel official documentation for further help
+                                Here is a quick guide for those who want to start with it now</p>
+                            <div>
+                            <ol type="1">
+                                <li>Show a basic web page to user about your task </li>
+                                <li>Add a button called add task to redirect to a page that has a form </li>
+                                <li>Add the action to the form (don’t forget @csrf) and take the route to web.php and  transfer into the Task Controller</li>
+                                <li>In the task controller validate the request and use Laravel DB queries to insert the data</li>
+                                <li>Use the same mechanism to update, delete the tasks</li>
+                                <li>There you go you have implemented a Full Stack Project </li>
+                            </ol></div>
+                            <p>The complete project is added into my github and code is open sourced, for further clarification you can visit the link below</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

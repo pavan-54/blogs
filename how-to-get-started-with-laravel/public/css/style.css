@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.navbar
+{
+    position: fixed;
+}
+.navbar-brand
+{
+    font-size: large;
+    font-weight: bolder;
+}
+.nav-link
+{
+    padding: 10px;
+    
+    transition: color 0.3s ease;
+    /* color: red; */
+}
+.nav-link:hover
+{
+    font-weight: 600;
+    border-bottom: 1px ridge maroon;
+    /* color: #66FCF1; */
+}
+.main-title
+{
+    font-weight: bolder;
+    
+}
+.sub-title
+{
+    font-weight: bolder;
+}
